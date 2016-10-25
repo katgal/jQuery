@@ -1,0 +1,7 @@
+.photo {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 2px solid # 555555;
+  margin: 5px;
+}

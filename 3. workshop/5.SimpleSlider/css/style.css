@@ -1,0 +1,20 @@
+.slider {
+    height: 250px;
+    /*ustawiam szerokosc i dodaje overflow: hidden*/
+    width: 400px;
+    overflow: hidden;
+}
+.slider ul {
+    list-style: none;
+    /*width: 2500px; */
+    /* zeruje margines i padding... wyzerowalam tez fonty; dodanie resetu nie daje rezultatu (nie ustawiaja sie obok siebie)*/
+    margin: 0;
+    padding: 0;
+    position: relative; /*musi byc ustawione relative bo przesuwamy li*/
+    font-size: 0;
+    /* wysokosc sie zmienia z 408 na 200, czyli taki jaki maja obrazki*/
+}
+.slider li {
+    /* ustawiam li obok siebie */
+    display: inline-block;
+}
